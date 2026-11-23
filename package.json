@@ -1,0 +1,26 @@
+{
+  "name": "mb-browser",
+  "version": "0.6.1",
+  "description": "MAXBROWSER - custom browser engine for ethical hacking research",
+  "main": "terminal/index.js",
+  "bin": {
+    "mb": "terminal/index.js"
+  },
+  "scripts": {
+    "start": "node terminal/index.js"
+  },
+  "keywords": [
+    "browser",
+    "quickjs",
+    "dom",
+    "security"
+  ],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "quickjs-emscripten": "^0.32.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
